@@ -1,0 +1,30 @@
+{
+  "name": "m3u8-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "author": "",
+  "dependencies": {
+    "@types/akamai-edgeworkers": "^1.0.8",
+    "crypto": "^1.0.1",
+    "md5": "^2.3.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "edgeworkers-jest-mocks": "^1.0.11"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transformIgnorePatterns": [
+      "node_modules/(?!edgeworkers-jest-mocks/__mocks__)"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "node_modules/edgeworkers-jest-mocks/__mocks__"
+    ]
+  }
+}

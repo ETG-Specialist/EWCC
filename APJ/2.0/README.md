@@ -9,6 +9,6 @@ This will create a pull request to accept the code bundle into the repository. T
 
 #### If the above step doesn't work and you are not allowed to upload your code bundle, then follow the alternate step as mentioned below.
 1. Fork the EWCC repository (https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-2. Creating a pull request from the fork: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
+2. Creating a pull request from the fork (https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
 
 Once accepted, the code bundle will be reviewed and evaluated before declaring the winner of the coding challenge

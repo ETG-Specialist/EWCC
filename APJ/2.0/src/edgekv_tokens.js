@@ -1,0 +1,8 @@
+var edgekv_access_tokens = {
+    "namespace-default": {
+        "name": "default",
+        "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJld2lkcyI6ImFsbCIsInN1YiI6IjE4NDUyIiwibmFtZXNwYWNlLWRlZmF1bHQiOlsiciIsImQiLCJ3Il0sImNwYyI6IjExOTk0NjgiLCJpc3MiOiJha2FtYWkuY29tL0VkZ2VEQi9QdWxzYXIvdjAuMTAuMiIsImV4cCI6MTY1NjYzMzU5OSwiZW52IjpbInAiLCJzIl0sImlhdCI6MTY0NTUyMDI4NywianRpIjoiNjU4YWI0YTktZThlYy01NWI3LTgxNWEtYjkxZDc0MDRkOTMxIiwicmVxaWQiOiJjdXN0b21lciIsIm5vZWNsIjp0cnVlfQ.Kpr56gYBM-eP5y4NOrsaG-ni6x3MtLj1EwIBTvzRoZRFXSQLOPnW7VZ93iUctHnAJW23eztPNdx4bkbhJaCp0H6LlBbgiWvNooWMxQEHTk3J1tTs_j_JZZkhKrlu8g5fRpub6PkOcvM_ijaQxhAbA3FDmVo34t4C6doxxc0sVVzL-iHrn2yJbAXPRZl8UIQJ54tP7q_MAG8ishj7oGPBDyW1ZfJh0CIcEx6P3qJEJUszM9gFXK841jiWDKBFFT-p2849mFBYclqzF9-v8pS795A7vHKh7ln2PNmHl3TctsapFJ90IPSNEXU0Plh_THXdDpkMuuzbVURQWVZ-t28RaQ"
+    }
+}
+export {edgekv_access_tokens};
+ 

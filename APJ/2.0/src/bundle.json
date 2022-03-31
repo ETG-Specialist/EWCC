@@ -1,0 +1,9 @@
+{
+    "edgeworker-version": "1.2.0",
+    "bundle-version" : 5,
+    "api-version" : "1.0",
+    "description" : "minimize IQIYI video streaming startup delay by caching M3U8 on Edge.",
+    "misc" : {
+        "author" : "IQIYI.com"
+     }
+}

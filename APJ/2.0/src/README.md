@@ -1,0 +1,7 @@
+# IQIYI.com
+
+1. This will hook IQ start play request, and cache M3U8 data to reduce server workload and speedup user video play.
+
+2. We try many ways to speedup our website video play experience at start time. When come with a long movie which M3U8 play file will contains many 10sec TS urls. Every url contains many parameters which almost all the same. These parameters are used for permission verification and source identification at CDN side. Our original video TS file have 360sec duration and use start/end/contentlength parameters cut to many small 10sec TS urls. This means we can cache big TS url and build small TS url with parameters.
+
+3. We use EdgeWorker and EdgeKV simplify M3U8 network flow at user edge. User request first reach EdgeWorker. EdgeWorker check video cache in  EdgeKV. If not exist it will direct request the source server to get video info back to user. At the same time parse the M3U8 file then group the TS url in the video info. Then save the 360sec duration TS url into EdgeKV which key is video id. When other user play the same video will hit the cache in  EdgeKV. EdgeWorker will change the url parameter features in order to close M3U8 content return. Then send request to source server and get a clean and little video info which is high speed. At the same time EdgeWorker get TS url in cache and add start/end/contentlength parameters to structure original M3U8 play file. EdgeWorker insert the M3U8 content into source server returns and send back to user.
